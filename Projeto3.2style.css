@@ -1,0 +1,153 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+body {
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.conteudo {
+  width: 825px;
+  margin: 50px auto;
+  border: 4px solid black;
+  position: relative;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.frete {
+  font-size: 12px;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  background-color: #f7f7f7;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+P {
+  margin-bottom: 5px;
+}
+
+a:link,
+a:visited {
+  color: #444444;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+li {
+  list-style: square;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border-top: 4px solid black;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+h1::before {
+  content: "À VENDA!";
+  color: white;
+  background-color: #ec2f2f;
+  position: absolute;
+  left: -38px;
+  top: -17px;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+
+.cor1,
+.cor2,
+.cor3,
+.cor4,
+.cor5,
+.cor6 {
+  display: inline-block;
+  margin: 20px 10px;
+  padding: 5px 5px;
+}
+
+.cor1 {
+  margin-left: 0;
+  width: 22px;
+  height: 22px;
+  color: black;
+  background-color: black;
+}
+
+.cor2 {
+  width: 22px;
+  height: 22px;
+  color: #2f6ee2;
+  background-color: #2f6ee2;
+}
+
+.cor3 {
+  width: 22px;
+  height: 22px;
+  color: red;
+  background-color: red;
+}
+
+.cor4 {
+  width: 22px;
+  height: 22px;
+  color: yellow;
+  background-color: yellow;
+}
+
+.cor5 {
+  width: 22px;
+  height: 22px;
+  color: greenyellow;
+  background-color: greenyellow;
+}
+
+.cor6 {
+  width: 22px;
+  height: 22px;
+  color: brown;
+  background-color: brown;
+}
